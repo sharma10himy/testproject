@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="Raise-Fault-1">
+    <DisplayName>Raise Fault-1</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <AssignVariable>
+            <Name>myFaultVar</Name>
+            <Value>thise in not good</Value>
+        </AssignVariable>
+        <!-- <Add>
+            <Headers>
+                <Header name="newvar">Thise requst is invalid</Header>
+            </Headers>
+        </Add>-->
+        <Set>
+            <Payload contentType="text/plain">{raiseFaultRuleSchemaValidationMessage}</Payload>
+            <!--  <Condition>(raiseFaultRuleSchemaValidationResultStatus)</Condition>-->
+            <!--   <StatusCode>{raiseFaultRuleSchemaValidationResultStatus}</StatusCode>-->
+            <ReasonPhrase>bad request</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging async="false" continueOnError="false" enabled="true" name="ML-log-to-loggly">
+    <DisplayName>ML-log-to-loggly</DisplayName>
+    <Syslog>
+        <Message variablePrefix="%" variableSuffix="#">[%private.logging_key#@41058 tag="apigee-edge-syslog" tag="%organization.name#" tag="%environment.name#" ]
+        {   "statusCode":%message.status.code#,
+            "Error message":"%message.reason.phrase#",
+            "Error1 message":"%error.header.myFaultVar#",
+           
+             
+         
+        "requestContent":[%log.request.content#],
+            "targetRequestContent":[%log.target.request.content#],
+            "targetResponseContent":[%log.target.response.content#],
+            "responseContent":[%log.response.content#]
+
+        }
+        </Message>
+        <Host>logs-01.loggly.com</Host>
+        <Port>514</Port>
+        <FormatMessage>true</FormatMessage>
+    </Syslog>
+</MessageLogging>

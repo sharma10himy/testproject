@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-set-client-request-log-variables" version="SHA-512:142b9fce0875f04414e7466f03cb5282c45a773d38cad0dd1536dee6f0a58890405139202a0b9c734c920148e1ba9da88b7a7afdc98863a31cc7e3408e06d87a"/>
+        <VersionInfo resourceName="Assign-Message-1" version="SHA-512:814f01e9f726450bf7976fac6c5178debb820954251f8c2753106f5fc33d3d048bcb7e5ea5bba5ec7c3ebca16f862b06857536a3c0e9fe844b6880e0eb4b4e63"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:4750113bf8c35cfcefed8874f2496bb288bebe21d3e1754f621b9a2e35a6e60f1d80519f0650a08c4a0a7a076be1a743dda2c34c2638717650309836e2e4f52d"/>
+        <VersionInfo resourceName="KV-get-log-parameters" version="SHA-512:e4f245fe96756c0a616ca56c296bd6359e3a5fa5e239a2acd2bb86ce3e5bf51a34e6d485d7317b18ad5504b174778611f05c32a3bc41ead7e8c8885bdcb13e9f"/>
+        <VersionInfo resourceName="ML-log-to-loggly" version="SHA-512:006c9b017703c2c0d7709e3d3467233f6b7b8a22855099688b9ea9f726f27515bebaa99c4a282b2f3d3483d90bdb8a522d955184f836d4e562211d811062be4a"/>
+        <VersionInfo resourceName="Raise-Fault-1" version="SHA-512:8ff35ff07bbb3b82698a7ceec085aee7fdb1e4b20186d459d3e6537cdc8443398a43c995254063b0232c777a3f75f76cfa75c51d18b10721ea39b879f028d085"/>
+        <VersionInfo resourceName="Raise-Fault-2" version="SHA-512:82d9f9f4078245453d2e1f255a4dd1ad67721d38fea9db3e6697465748d331954c302b576af136bcef829d4743b8b64dc649a4e08c845609cf301166c72f2b6d"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f73b6081d4c32958881e781cd1376517bafbf0a70c88c0e6ecadfdbcf047742745494cec85aad6cf53fd35f10ca52839c2673c78e9f9ce5bc3d1c109991a0536"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:66fec8dbc6c41dd5ab458c89e8bd424ff57bc82b23774b339d007147f92636d05d107fddeb785651b616e82107a687ca38f3fa70d2d30d34b6b6c9a4a18b0279"/>
+        <VersionInfo resourceName="jsc://Script-2.js" version="SHA-512:be368fc27e4649bc0d83767b7260c0601c1061699b5d0d1cd4cf573b1d8191b7d2cca1d175c64b3f5cdbc42f65f91b1b5a4585512e8c1fad4d209c6bad11c341"/>
+        <VersionInfo resourceName="jsc://Script-3.js" version="SHA-512:b94ef8293b926c585d590f658ee12f89b6c39eccc508df88a38a82e4dcda8357071468678bc678d9df4f0de26ebd80a55ee43a7cfd5620b6a634fac9f8d99c39"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:58133dfecce76454173e5a517aba89a047dd65df6fafd378182fffcbf56cb26457f6df18da89b85e54e6f0a856b86507d2e36bc49b1742e15dc18006771d8e50"/>
+    </TargetEndpoints>
+</Manifest>
